@@ -1,0 +1,79 @@
+/* Overall Page Styling */
+body {
+    background-color: #f9f7f3; /* soft warm beige */
+    color: #333; /* deep elegant grey */
+    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* Form Container */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* pure clean white */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #2a2a2a;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #4a4a4a;
+}
+
+/* Radio Buttons and Labels */
+input[type="radio"] {
+    accent-color: #a1866f; /* soft muted gold tone */
+    margin-right: 10px;
+    transform: scale(1.1);
+}
+
+label {
+    cursor: pointer;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    display: block;
+    background-color: #a1866f; /* niche perfume soft gold */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin: 30px auto 0;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #8d715c; /* deeper warm tone on hover */
+}
+
+/* Smooth spacing between options */
+input[type="radio"] + label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+/* Optional: Smooth fade for sections */
+h3, input[type="radio"], label {
+    transition: all 0.3s ease;
+}
+
+/* Remove default form spacing */
+form * {
+    box-sizing: border-box;
+}
